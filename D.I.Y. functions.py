@@ -5,3 +5,11 @@ def rnd(a):
         return int(a - b)
     else:
         return int(a + (1 - b))
+
+#Detects total occurences of the "target"-ed character
+def charlock(text, target):
+    hits = 0
+    for i in text:
+        if i == target:
+            hits += 1
+    return hits
