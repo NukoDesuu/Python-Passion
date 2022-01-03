@@ -1,4 +1,4 @@
-notefile = open("E:\\Nono\\Programming\\NukoNote.txt")
+notefile = open("E:\\Nono\\Programming\\LOCAL FILES\\NukoNote.txt")
 
 content = notefile.read()
 
