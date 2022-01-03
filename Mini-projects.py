@@ -37,3 +37,27 @@ for ch in "aeiou":
 print()
 
 #####
+
+##### Tool that "Find the longest word" from the input (omitting comma)
+
+txt = input()
+
+#your code goes here
+words = txt.split(" ")
+char = []
+wordsc = {}
+
+for i in words:
+    x = len(i)
+    if "," in i:
+        x -= 1
+    
+    char.append(x)
+    wordsc[x] = i
+
+maxc = max(char)
+maxw = wordsc[maxc]
+
+print(maxw)
+
+#####
