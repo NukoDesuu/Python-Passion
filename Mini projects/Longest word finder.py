@@ -40,6 +40,6 @@ else:
     s = ""
     be = "is"
 
-print("The longest word{0} {1} : {2} ({3} character{4})".format(s, be, maxcwrd2, maxc, s))
+print("The longest word{0} {1} : {2} ({3} character{4})\n".format(s, be, maxcwrd2, maxc, s))
 
 #####
