@@ -1,4 +1,4 @@
-file = open("books.txt", "r")
+file = open("n0miya/Book_Title/books.txt", "r")
 
 for line in file.readlines():
     print(f"{line.strip()[0]}{len(line.strip())}")
