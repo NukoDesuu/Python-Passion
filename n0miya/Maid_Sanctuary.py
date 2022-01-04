@@ -7,7 +7,10 @@ class Maid:
         self.w = weight
 
     def ReportBio(self):
-        return print(f"My name is... {self.n}. \nI'm {self.h} cm tall and weighs {self.w} kg.")
+        print(f"My name is... {self.n}. \nI'm {self.h} cm tall and weighs {self.w} kg.")
+
+    def coom(self):
+        print("Anh~ huh~ iku-iku!")
 
 
 class Muku(Maid):
@@ -33,3 +36,5 @@ Chocola = Muku("Chocola", 151, 45)
 
 Mochi.call()
 Chocola.ReportBio()
+
+Chocola.coom()
