@@ -1,3 +1,5 @@
+# Program to update number display based on what user pressed
+
 import tkinter as tk
 
 class Spinner:
