@@ -38,3 +38,5 @@ Mochi.call()
 Chocola.ReportBio()
 
 Chocola.coom()
+
+print(type(Chocola))
